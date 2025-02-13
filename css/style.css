@@ -1,0 +1,11 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+.p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(3, 0, 5);
+}
