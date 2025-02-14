@@ -9,3 +9,6 @@ p {
     font-size: 25px;
     color: rgb(3, 0, 5);
 }
+.img-p{
+    border-radius: 50%;
+}
