@@ -1,0 +1,17 @@
+h1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    text-align: center;
+}
+
+button{
+    border-radius: 15px;
+    padding: 10px 10px;
+    background-color: rgb(134, 45, 218);
+    color: rgb(55, 218, 163);
+    text-align: end;
+    border: none;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
