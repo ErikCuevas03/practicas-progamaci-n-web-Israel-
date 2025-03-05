@@ -1,0 +1,10 @@
+.boton1{
+    background-color: blueviolet;
+    color: aquamarine;
+}
+.boton2{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: rgb(52, 117, 190);
+    color: aquamarine;
+}
