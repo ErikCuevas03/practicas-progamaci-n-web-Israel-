@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Formulario Alumno</title>
+</head>
+
+<body>
+
+    <!-- Contenedor  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mt-4">
+                    <div style="background-color:#aeb1ec;" class="card-header">
+                        <center>
+                            <h2>Informacion estudiantil</h2>
+                        </center>
+                        <div class="text-end">
+                            <button class="btn btn-primary">Crear</button>
+                        </div>                        
+                    </div>
+                    <div class="card-body" style="background-color: #faf7f7;">
+                        <!-- Primer row  -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="card-mt-4">
+                                    <div  style="background-color:#caaeec" class="card-header">
+                                        Nombre
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="text" id="name" name="name" required><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card-mt-4">
+                                    <div style="background-color:#caaeec" class="card-header">
+                                        Apellido Paterno
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="text" id="Apaterno" name="Apaterno" required><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card-mt-4">
+                                    <div style="background-color:#caaeec"class="card-header">
+                                        Apellido Materno
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="text" id="Amaterno" Amaterno="name" required><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card-mt-4">
+                                    <div style="background-color: #caaeec;" class="card-header">
+                                        Numero de control
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="text" id="numerodecontrol" name="ncontrol" required><br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- segundo row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card-mt-4">
+                                    <div style="background-color:#caaeec;"class="card-header">
+                                        Carrera
+                                    </div>
+                                    <div class="card-body">
+                                        <select name="Carrera" id="Carrera">
+                                            <option value="is">Ingenieria en Sistemas Computacionales</option>
+                                            <option value="ic">Ingenieria Civil</option>
+                                            <option value="im">Ingenieria Mecatronica</option>
+                                            <option value="ig">Ingenieria en Gestión Empresarial</option>
+                                            <option value="ii">Ingenieria Industrial</option>
+                                            <option value="la">Licenciatura en Administración </option>
+                                            <option value="arq">Licenciatura en Arquitectura</option>
+                                        </select><br><br> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-mt-4">
+                                    <div  style="background-color: #caaeec;"class="card-header">
+                                        Semestre
+                                    </div>
+                                    <div class="card-body">
+                                        <select name="Semestre" id="Semestre">
+                                            <option value="1">Primer</option>
+                                            <option value="2">Segundo</option>
+                                            <option value="3">Tercero</option>
+                                            <option value="4">Cuarto</option>
+                                            <option value="5">Quinto</option>
+                                            <option value="6">Sexto</option>
+                                            <option value="7">Septimo</option>
+                                            <option value="8">Octavo</option>
+                                            <option value="9">Noveno</option>
+                                        </select><br><br> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-mt-4">
+                                    <div style="background-color:#caaeec;" class="card-header">
+                                        Grupo
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="grupo"> <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- tercer row -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card-mt-4">
+                                    <div style="background-color:#caaeec ;"class="card-header">
+                                        Ubicación
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="gps"> <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-mt-4">
+                                    <div  style="background-color: #caaeec;"class="card-header">
+                                        Calle
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="calle"> <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card-mt-4">
+                                    <div style="background-color: #caaeec;" class="card-header">
+                                        Codigo Postal
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="cp"> <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
